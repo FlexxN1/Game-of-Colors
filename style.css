@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background: #050423;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #22a6b3;
+}
+
+.celeste.light {
+    background: #7ed6df;
+}
+
+.violeta {
+    background: #be2edd;
+}
+
+.violeta.light {
+    background: #e056fd;
+}
+
+.naranja {
+    background: #f0932b;
+}
+
+.naranja.light {
+    background: #ffbe76;
+}
+
+.verde {
+    background: #6ab04c;
+}
+
+.verde.light {
+    background: #badc58;
+}
+
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+
+.hide {
+    display: none;
+}
+
+.nivel {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #d0b217;
+    font-size: 2.5em;
+}
+
+#numero-nivel {
+    margin-left: 20px;
+}
+
+* {
+    font-family: 'Helvetica';
+}
+
+.celeste,
+.violeta,
+.naranja,
+.verde {
+    transition: .2s ease-out;
+}
+
+.celeste.light,
+.violeta.light,
+.naranja.light,
+.verde.light {
+    animation: aumentar .3s ease-out;
+}
+
+@keyframes aumentar {
+    0% {
+        transform: scale(0.95)    ;
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+}
+
+    100% {
+        transform: scale(1.03)    ;
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+}
+}

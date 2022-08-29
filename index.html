@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Simon Dice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="gameboard">
+		<div id="celeste" class="color celeste left" data-color="celeste" data-sound="tick"></div>
+		<div id="violeta" class="color violeta right" data-color="violeta" data-sound="tick"></div>
+		<div id="naranja" class="color naranja left" data-color="naranja" data-sound="tick"></div>
+		<div id="verde" class="color verde right" data-color="verde" data-sound="tick"></div>
+		<button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+	</div>
+	<div class="nivel">
+		<span>Nivel:</span><span id="numero-nivel">1</span>
+	</div>
+	<audio id="tick" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/tink.wav"></audio>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
