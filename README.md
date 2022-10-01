@@ -1,6 +1,6 @@
 # Game of Colors🔗
 
-Es un juego de memorizar la secuencia de colores que te marca, tiene 3 niveles de dificultad.
+Es un juego de memorizar la secuencia de colores que te marca la maquina, tiene 3 niveles de dificultad.
 
 Recursos :
 
