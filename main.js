@@ -127,12 +127,12 @@ class Juego {
     }
 
     juegoGanado() {
-        swal('Sigue los colores', 'Ganaste el juego, felicitaciones!', 'success')
+        swal('Game of Colors', 'Ganaste el juego, felicitaciones! 😀🥳🎉', 'success')
             .then(this.inicializar);
     }
 
     juegoPerdido() {
-        swal('Sigue los colores', 'Lo sentimos, perdiste!', 'error')
+        swal('Game of Colors', 'Lo sentimos, perdiste! ☹', 'error')
             .then(() => {
                 this.eliminarEventoClick();
                 this.inicializar();
