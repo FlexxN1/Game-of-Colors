@@ -7,7 +7,7 @@ Recursos :
 - [SweetAlert](https://cdnjs.com/libraries/sweetalert)
 
 ## View project 🚀🙋🏻‍♂️
-## [Deploy](https://flexxn1.github.io/Juego-de-Colores//)
+## [Deploy](https://flexxn1.github.io/Game-of-Colors/)
 
 ## Installation ⚖
 Instagram Clone:
